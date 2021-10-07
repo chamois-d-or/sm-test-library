@@ -15,32 +15,20 @@
           "link_type": "Web",
           "url": "https://slicemachine.dev"
         }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
-          "url": "https://slicemachine.dev"
-        }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
-          "url": "https://slicemachine.dev"
-        }
       }
     ],
     "primary": {
       "title": [
         {
           "type": "heading1",
-          "text": "Reinvent robust functionalities",
+          "text": "Whiteboard leading-edge initiatives",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Amet sunt sit mollit quis ullamco nostrud ipsum aliqua eiusmod commodo eiusmod.",
+          "text": "Cillum mollit ea minim. Officia et adipisicing do nulla esse ullamco enim pariatur.",
           "spans": []
         }
       ]

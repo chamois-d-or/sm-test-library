@@ -1,0 +1,77 @@
+{
+  "id": "footer-marketing",
+  "label": "Footer Marketing",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "links": {
+        "config": {
+          "label": "links",
+          "placeholder": "",
+          "fields": {
+            "link": {
+              "config": {
+                "label": "link",
+                "placeholder": "",
+                "select": "web",
+                "allowTargetBlank": false
+              },
+              "type": "Link"
+            },
+            "linkLabel": {
+              "config": {
+                "label": "linkLabel",
+                "placeholder": ""
+              },
+              "type": "Text"
+            }
+          }
+        },
+        "type": "Group"
+      },
+      "socialLinks": {
+        "config": {
+          "label": "socialLinks",
+          "placeholder": "",
+          "fields": {
+            "link": {
+              "config": {
+                "label": "link",
+                "placeholder": "",
+                "select": "web",
+                "allowTargetBlank": false
+              },
+              "type": "Link"
+            },
+            "linkLabel": {
+              "config": {
+                "label": "linkLabel",
+                "placeholder": ""
+              },
+              "type": "Text"
+            },
+            "icon": {
+              "config": {
+                "label": "icon",
+                "constraint": {},
+                "thumbnails": []
+              },
+              "type": "Image"
+            }
+          }
+        },
+        "type": "Group"
+      },
+      "copyright": {
+        "config": {
+          "label": "copyright",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        },
+        "type": "StructuredText"
+      }
+    }
+  }
+}

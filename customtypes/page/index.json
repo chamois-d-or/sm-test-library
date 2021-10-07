@@ -17,7 +17,22 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "product_overview_with_image_grid": {
+            "promo_section_image_tiles": {
+              "type": "SharedSlice"
+            },
+            "product_list_with_cta": {
+              "type": "SharedSlice"
+            },
+            "promo_section_full_width_with_overlapping_image_tiles": {
+              "type": "SharedSlice"
+            },
+            "promo_section_with_background_image": {
+              "type": "SharedSlice"
+            },
+            "promo_section_fading_background_testimonials": {
+              "type": "SharedSlice"
+            },
+            "hero_banner": {
               "type": "SharedSlice"
             }
           }

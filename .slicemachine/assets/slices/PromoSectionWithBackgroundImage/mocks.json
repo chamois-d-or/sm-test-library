@@ -8,14 +8,14 @@
       "title": [
         {
           "type": "heading1",
-          "text": "Architect back-end infrastructures",
+          "text": "Benchmark world-class applications",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Sint excepteur sint consequat amet anim eu culpa. Commodo proident dolore incididunt.",
+          "text": "Magna Lorem excepteur proident sunt magna nostrud.",
           "spans": []
         }
       ],
@@ -26,13 +26,13 @@
         },
         "alt": "Placeholder image",
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da?w=900&h=500&fit=crop"
       },
       "link": {
         "link_type": "Web",
-        "url": "http://twitter.com"
+        "url": "https://slicemachine.dev"
       },
-      "linkLabel": "streamline plug-and-play experiences"
+      "linkLabel": "synthesize robust supply-chains"
     }
   }
 ]

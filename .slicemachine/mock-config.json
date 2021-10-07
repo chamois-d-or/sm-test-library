@@ -27,6 +27,9 @@
       }
     },
     "marketing-homepage": {},
-    "menu-marketing": {}
+    "menu-marketing": {},
+    "footer-marketing": {
+      "socialLinks": {}
+    }
   }
 }

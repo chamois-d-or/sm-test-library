@@ -1,0 +1,80 @@
+{
+  "id": "09fd8344-70a8-4e11-9f7f-4eaf73ba7c49",
+  "uid": "beatae-animi-et",
+  "type": "footer-marketing",
+  "data": {
+    "copyright": [
+      {
+        "type": "paragraph",
+        "text": "Aliquip voluptate occaecat velit anim dolor tempor magna nostrud fugiat ea consequat laborum veniam pariatur. Cillum aute tempor qui est velit do et eu nulla Lorem proident magna ex id do. Id voluptate dolore ut nisi ullamco ea in laboris.",
+        "spans": []
+      }
+    ],
+    "links": [
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "linkLabel": "orchestrate cutting-edge architectures"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "linkLabel": "envisioneer real-time e-business"
+      }
+    ],
+    "socialLinks": [
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "linkLabel": "cultivate cross-media eyeballs",
+        "icon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "linkLabel": "reinvent leading-edge technologies",
+        "icon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "linkLabel": "scale vertical users",
+        "icon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
+        }
+      }
+    ]
+  }
+}
