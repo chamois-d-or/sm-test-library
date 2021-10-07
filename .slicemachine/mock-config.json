@@ -1,6 +1,7 @@
 {
   "slices": {
-    "FooterColumn": {}
+    "FooterColumn": {},
+    "ProductListWithCta": {}
   },
   "_cts": {
     "home-page": {},

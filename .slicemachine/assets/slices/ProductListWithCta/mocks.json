@@ -7,6 +7,12 @@
       {
         "productLink": {
           "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
           "url": "http://google.com"
         }
       },
@@ -21,14 +27,67 @@
       "title": [
         {
           "type": "heading1",
-          "text": "Whiteboard leading-edge initiatives",
+          "text": "Harness intuitive supply-chains",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Cillum mollit ea minim. Officia et adipisicing do nulla esse ullamco enim pariatur.",
+          "text": "Id nulla ullamco eiusmod et et.",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "variation": "customProducts",
+    "name": "Custom Products",
+    "slice_type": "product_list_with_cta",
+    "items": [
+      {
+        "productLink": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Repurpose frictionless content",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Aliquip reprehenderit aute adipisicing velit mollit incididunt et excepteur exercitation ea aute.",
           "spans": []
         }
       ]
