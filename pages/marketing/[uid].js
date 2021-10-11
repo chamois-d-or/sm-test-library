@@ -20,7 +20,7 @@ const BlogPage = (props) => {
 if(!props.id){
   return <Custom404 />
 }
-useUpdatePreviewRef(props.previewData.ref, props.id)
+//useUpdatePreviewRef(props.previewData.ref, props.id)
 useUpdateToolbarDocs(blogPageToolbarDocs(props.uid, props.previewData.ref), [props])
 return (
   <LayoutMarketing menuMarketing={props.menuMarketing} footerMarketing={props.footerMarketing} categories={props.categories}>
