@@ -10,7 +10,7 @@ import { useEffect } from 'react'
 import LayoutMarketing from "../../components/LayoutMarketing";
 
 const Page = (props) => {
-  //useUpdatePreviewRef(props.previewData.ref, props.id)
+  useUpdatePreviewRef(props.previewData.ref, props.id)
   useUpdateToolbarDocs(homepageToolbarDocs(props.uid, props.previewData.ref), [props])
   return (
     <LayoutMarketing menuMarketing={props.menuMarketing} footerMarketing={props.footerMarketing} categories={props.categories}>

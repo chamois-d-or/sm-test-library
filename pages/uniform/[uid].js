@@ -21,7 +21,7 @@ const Page = (props) => {
   if(!props.id){
     return <Custom404 />
   }
-  //useUpdatePreviewRef(props.previewData.ref, props.id)
+  useUpdatePreviewRef(props.previewData.ref, props.id)
   useUpdateToolbarDocs(uniformPageToolbarDocs(props.uid, props.previewData.ref), [props])
   return(
   <Layout menu={props.menu} footer={props.footer} categories={props.categories}>
