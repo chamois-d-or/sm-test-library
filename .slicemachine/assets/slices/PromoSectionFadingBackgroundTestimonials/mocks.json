@@ -5,35 +5,31 @@
     "slice_type": "promo_section_fading_background_testimonials",
     "items": [
       {
-        "quote": "disintermediate enterprise channels",
-        "attribution": "visualize synergistic channels"
+        "quote": "morph collaborative mindshare",
+        "attribution": "architect strategic synergies"
       },
       {
-        "quote": "deploy innovative web-readiness",
-        "attribution": "strategize sexy partnerships"
-      },
-      {
-        "quote": "brand web-enabled metrics",
-        "attribution": "engage value-added blockchains"
+        "quote": "extend enterprise solutions",
+        "attribution": "evolve out-of-the-box mindshare"
       }
     ],
     "primary": {
       "title": [
         {
           "type": "heading1",
-          "text": "Productize mission-critical web services",
+          "text": "Grow mission-critical infomediaries",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Irure enim adipisicing cillum eiusmod ut sunt fugiat commodo. Magna in aliqua ad dolor dolore consequat ullamco consectetur sunt ad sunt anim ut aliquip sunt. Pariatur labore ut ipsum excepteur labore irure ex veniam excepteur tempor Lorem aliqua aliqua mollit.",
+          "text": "Proident ut amet ea nisi tempor quis eu est velit et consectetur irure laborum consequat. Ad nisi aute eiusmod nulla sunt sint irure velit culpa.",
           "spans": []
         }
       ],
-      "cta": "extend holistic action-items",
-      "quotesTitle": "visualize cross-media markets",
+      "cta": "drive scalable vortals",
+      "quotesTitle": "maximize plug-and-play paradigms",
       "image": {
         "dimensions": {
           "width": 900,
@@ -41,7 +37,7 @@
         },
         "alt": "Placeholder image",
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
       }
     }
   }

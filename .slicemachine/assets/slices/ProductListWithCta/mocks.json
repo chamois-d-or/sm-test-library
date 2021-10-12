@@ -7,7 +7,7 @@
       {
         "productLink": {
           "link_type": "Web",
-          "url": "http://twitter.com"
+          "url": "https://prismic.io"
         }
       },
       {
@@ -21,20 +21,32 @@
           "link_type": "Web",
           "url": "https://slicemachine.dev"
         }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
       }
     ],
     "primary": {
       "title": [
         {
           "type": "heading1",
-          "text": "Harness intuitive supply-chains",
+          "text": "Morph bleeding-edge paradigms",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Id nulla ullamco eiusmod et et.",
+          "text": "Commodo eu fugiat ipsum occaecat eiusmod.",
           "spans": []
         }
       ]
@@ -48,31 +60,13 @@
       {
         "productLink": {
           "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
           "url": "http://google.com"
-        }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
-          "url": "http://google.com"
-        }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
-          "url": "http://twitter.com"
-        }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
-          "url": "http://twitter.com"
-        }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
-          "url": "http://twitter.com"
         }
       }
     ],
@@ -80,14 +74,14 @@
       "title": [
         {
           "type": "heading1",
-          "text": "Repurpose frictionless content",
+          "text": "Maximize dot-com interfaces",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Aliquip reprehenderit aute adipisicing velit mollit incididunt et excepteur exercitation ea aute.",
+          "text": "In officia reprehenderit do sunt occaecat anim nostrud commodo irure labore et sunt.",
           "spans": []
         }
       ]
