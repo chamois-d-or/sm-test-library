@@ -7,31 +7,13 @@
       {
         "productLink": {
           "link_type": "Web",
-          "url": "https://prismic.io"
-        }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
-          "url": "http://google.com"
-        }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
-          "url": "https://slicemachine.dev"
-        }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
-          "url": "https://slicemachine.dev"
-        }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
           "url": "http://twitter.com"
+        }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
         }
       }
     ],
@@ -39,14 +21,14 @@
       "title": [
         {
           "type": "heading1",
-          "text": "Morph bleeding-edge paradigms",
+          "text": "Incubate innovative action-items",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Commodo eu fugiat ipsum occaecat eiusmod.",
+          "text": "Esse minim magna mollit anim non.",
           "spans": []
         }
       ]
@@ -60,7 +42,7 @@
       {
         "productLink": {
           "link_type": "Web",
-          "url": "http://twitter.com"
+          "url": "https://prismic.io"
         }
       },
       {
@@ -68,20 +50,38 @@
           "link_type": "Web",
           "url": "http://google.com"
         }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
       }
     ],
     "primary": {
       "title": [
         {
           "type": "heading1",
-          "text": "Maximize dot-com interfaces",
+          "text": "Maximize cross-platform users",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "In officia reprehenderit do sunt occaecat anim nostrud commodo irure labore et sunt.",
+          "text": "Labore deserunt elit eiusmod sit proident esse ad deserunt labore occaecat.",
           "spans": []
         }
       ]

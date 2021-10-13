@@ -1,6 +1,9 @@
+import * as Slices_ecommerce from './slices/ecommerce'
+import * as Slices_marketing from './slices/marketing'
+import * as Slices_navigation from './slices/navigation'
 import * as Slices from './slices'
 
-const __allSlices = {  ...Slices, }
+const __allSlices = {  ...Slices, ...Slices_navigation, ...Slices_marketing, ...Slices_ecommerce, }
 
 const NotFound = ({ sliceName, slice, i }) => {
   console.error(`[sm-resolver] component "${sliceName}" not found at index ${i}.`)

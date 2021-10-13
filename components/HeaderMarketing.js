@@ -12,9 +12,9 @@ import {
   XIcon,
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
-import MenuSimple from '../slices/MenuSimple/index.js'
-import MenuWithoutIcon from '../slices/MenuWithoutIcon/index.js'
-import MenuWithIcons from '../slices/MenuWithIcons/index.js'
+import MenuSimple from '../slices/navigation/MenuSimple/index.js'
+import MenuWithoutIcon from '../slices/navigation/MenuWithoutIcon/index.js'
+import MenuWithIcons from '../slices/navigation/MenuWithIcons/index.js'
 
 const solutions = [
   {
