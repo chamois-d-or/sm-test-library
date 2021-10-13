@@ -1,0 +1,235 @@
+{
+  "id": "promo_section_image_tiles",
+  "type": "SharedSlice",
+  "name": "PromoSectionImageTiles",
+  "description": "PromoSectionImageTiles",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "PromoSectionImageTiles",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "Enter main title here.."
+          },
+          "type": "Text"
+        },
+        "subtitle": {
+          "config": {
+            "label": "Subtitle",
+            "placeholder": "Enter subtitle here..."
+          },
+          "type": "Text"
+        },
+        "image1": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "image2": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "image3": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "image4": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "image5": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "image6": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "image7": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "link": {
+          "config": {
+            "label": "CTA Link",
+            "placeholder": "",
+            "select": "document",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "linkLabel": {
+          "config": {
+            "label": "CTA Label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "intent": {
+          "type": "IntegrationFields",
+          "config": {
+            "catalog": "demo-sm-next-ecom--intents",
+            "label": "Uniform Intent"
+          }
+        },
+        "personalisationid": {
+          "config": {
+            "label": "personalisationid",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "customBackgroundColor",
+      "name": "CustomBackgroundColor",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "PromoSectionImageTiles",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "Enter main title here.."
+          },
+          "type": "Text"
+        },
+        "subtitle": {
+          "config": {
+            "label": "Subtitle",
+            "placeholder": "Enter subtitle here..."
+          },
+          "type": "Text"
+        },
+        "image1": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "image2": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "image3": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "image4": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "image5": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "image6": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "image7": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "link": {
+          "config": {
+            "label": "CTA Link",
+            "placeholder": "",
+            "select": "document",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "linkLabel": {
+          "config": {
+            "label": "CTA Label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "intent": {
+          "type": "IntegrationFields",
+          "config": {
+            "catalog": "demo-sm-next-ecom--intents",
+            "label": "Uniform Intent"
+          }
+        },
+        "backgroundColor": {
+          "config": {
+            "label": "backgroundColor",
+            "placeholder": ""
+          },
+          "type": "Color"
+        },
+        "personalisationid": {
+          "config": {
+            "label": "personalisationid",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

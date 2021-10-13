@@ -1,6 +1,18 @@
 {
   "slices": {
-    "FooterColumn": {}
+    "FooterColumn": {},
+    "ContentSectionCentered": {
+      "default-slice": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 8
+            }
+          }
+        }
+      }
+    }
   },
   "_cts": {
     "home-page": {},
@@ -31,5 +43,19 @@
     "footer-marketing": {
       "socialLinks": {}
     }
+  },
+  "slices/navigation": {
+    "MenuSimple": {
+      "default-slice": {
+        "primary": {}
+      }
+    },
+    "MyTestSlicezmijrnv": {}
+  },
+  "slices/marketing": {
+    "HeroSectionSplit": {}
+  },
+  "slices/ecommerce": {
+    "PromoSectionImageTiles": {}
   }
 }

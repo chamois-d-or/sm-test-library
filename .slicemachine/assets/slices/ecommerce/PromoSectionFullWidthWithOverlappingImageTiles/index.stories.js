@@ -1,0 +1,9 @@
+import MyComponent from '../../../../../slices/ecommerce/PromoSectionFullWidthWithOverlappingImageTiles';
+
+export default {
+  title: 'slices/ecommerce/PromoSectionFullWidthWithOverlappingImageTiles'
+}
+
+
+export const _DefaultSlice = () => <MyComponent slice={{"variation":"default-slice","name":"Default slice","slice_type":"promo_section_full_width_with_overlapping_image_tiles","items":[],"primary":{"title1":[{"type":"heading1","text":"Optimize transparent bandwidth","spans":[]}],"title2":[{"type":"heading1","text":"Visualize e-business blockchains","spans":[]}],"image1":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1589321599763-d66926c29613?w=900&h=500&fit=crop"},"image2":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"},"image3":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1587653915936-5623ea0b949a?w=900&h=500&fit=crop"},"image4":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1571126770897-2d612d1f7b89?w=900&h=500&fit=crop"},"image5":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"},"image6":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"},"ctaLink":{"link_type":"Web","url":"http://twitter.com"},"linkLabel":"leverage transparent e-commerce"},"id":"_DefaultSlice"}} />
+_DefaultSlice.storyName = 'Default slice'
