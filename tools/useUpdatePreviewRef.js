@@ -11,33 +11,42 @@ function getExitPreviewRoute(router) {
   return linkUrl
 }
 
+function timeout(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 export default function useUpdatePreview(previewRef, documentId) {
   const router = useRouter()
   const previewExitRoute = getExitPreviewRoute(router)
   useEffect(() => {
-    const rawPreviewCookie = Cookies.get('io.prismic.preview')
-    const previewCookie = rawPreviewCookie ? JSON.parse(rawPreviewCookie) : null
+    const updatePreview = async () => {
+      await timeout(1000)
+      
+      const rawPreviewCookie = Cookies.get('io.prismic.preview')
+      const previewCookie = rawPreviewCookie ? JSON.parse(rawPreviewCookie) : null
 
-    const previewCookieObject = previewCookie ? previewCookie[`${repoName}.prismic.io`] : null
+      const previewCookieObject = previewCookie ? previewCookie[`${repoName}.prismic.io`] : null
 
-    const previewCookieRef = previewCookieObject && previewCookieObject.preview
-      ? previewCookieObject.preview
-      : null
+      const previewCookieRef = previewCookieObject && previewCookieObject.preview
+        ? previewCookieObject.preview
+        : null
 
-    console.log("previewCookieRef : " + previewCookieRef)
-    console.log("previewRef : " + previewRef)
-    console.log("router : " + router.isPreview)
-    if (router.isPreview) {
-      if (rawPreviewCookie && previewCookieRef) {
-        if (previewRef !== previewCookieRef) {
-          return router.push(`/api/preview?token=${previewCookieRef}&documentId=${documentId}`)
+      console.log("previewCookieRef : " + previewCookieRef)
+      console.log("previewRef : " + previewRef)
+      console.log("router : " + router.isPreview)
+      if (router.isPreview) {
+        if (rawPreviewCookie && previewCookieRef) {
+          if (previewRef !== previewCookieRef) {
+            return router.push(`/api/preview?token=${previewCookieRef}&documentId=${documentId}`)
+          }
+        } else {
+          return router.push(previewExitRoute)
         }
-      } else {
-        return router.push(previewExitRoute)
+      } else if (rawPreviewCookie && previewCookieRef) {
+        return router.push(`/api/preview?token=${previewCookieRef}&documentId=${documentId}`)
       }
-    } else if (rawPreviewCookie && previewCookieRef) {
-      return router.push(`/api/preview?token=${previewCookieRef}&documentId=${documentId}`)
+      return undefined
     }
-    return undefined
+    updatePreview()
   }, [])
 }
