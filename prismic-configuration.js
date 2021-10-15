@@ -20,10 +20,13 @@ export const linkResolver = (doc) => {
     return `/uniform/${doc.uid}`;
   }
   if (doc.type === "page") {
-    return `/${doc.uid}`;
+    return `/${doc.lang}/${doc.uid}`;
+  }
+  if (doc.type === "home-page") {
+    return `/${doc.lang}`;
   }
   if (doc.type === "product-page") {
-    return `/product/${doc.uid}`;
+    return `/${doc.lang}/product/${doc.uid}`;
   }
   if (doc.type === "blog-page") {
     return `/marketing/${doc.uid}`;
@@ -48,11 +51,11 @@ export const Router = {
   routes: [
     {
       "type":"page",
-      "path":"/:uid"
+      "path":"/:lang/:uid"
     },
     {
       "type":"product-page",
-      "path":"/product/:uid"
+      "path":"/:lang/product/:uid"
     },
     {
       "type":"blog-page",
@@ -64,7 +67,7 @@ export const Router = {
     },
     {
       "type":"home-page",
-      "path":"/"
+      "path":"/:lang"
     },],
   href: (type) => {
     const route = Router.routes.find(r => r.type === type);

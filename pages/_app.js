@@ -7,6 +7,7 @@ import localTracker from "../tools/localUniformTracker";
 
 export default class MyApp extends NextApp {
   static async getInitialProps(appCtx) {
+    // console.log(appCtx.ctx.req.headers['accept-language'])
     const client = Client();
     const menu = (await client.getSingle("menu")) || {};
     const footer = (await client.getSingle("footer")) || {};

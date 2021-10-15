@@ -5,13 +5,23 @@ import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { MenuIcon, SearchIcon, ShoppingBagIcon, XIcon } from '@heroicons/react/outline'
 import { Link } from 'prismic-reactjs'
 import { linkResolver } from './../prismic-configuration'
+import NextLink from 'next/link'
+
+import { useRouter } from 'next/router'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Header({ menu = [], categories = [] }){
+export default function Header({ menu = [], categories = [], lang = null, altLangs= [] }){
   const [open, setOpen] = useState(false)
+  const router = useRouter()
+  function handleChange(e) {
+    const locale = altLangs.find(altLang => altLang.lang ===  e.target.value )
+    console.log(locale)
+    console.log(linkResolver(locale))
+    router.push(linkResolver(locale),linkResolver(locale),{locale: locale.lang})
+  }
   return (
     <div className="bg-white">
       {/* Mobile menu */}
@@ -293,14 +303,45 @@ export default function Header({ menu = [], categories = [] }){
                 </div>
 
                 <div className="hidden lg:ml-8 lg:flex">
-                  <a href="#" className="text-gray-700 hover:text-gray-800 flex items-center">
-                    <img
-                      src="https://tailwindui.com/img/flags/flag-canada.svg"
-                      alt=""
-                      className="w-5 h-auto block flex-shrink-0"
-                    />
-                    <span className="ml-3 block text-sm font-medium">CAD</span>
-                    <span className="sr-only">, change currency</span>
+                  <a className="text-gray-700 hover:text-gray-800 flex items-center">
+                    {/* <ul
+                      id="location"
+                      name="location"
+                      className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                      defaultValue="Canada"
+                    >
+                      <li key={lang}>
+                        {lang}
+                      </li>
+                      {altLangs.map((altLang) => {
+                        return(
+                          <li key={altLang.id}>
+                            <a href={linkResolver(altLang)}>
+                              {altLang.lang}
+                            </a>
+                          </li>
+                        )}
+                      )}
+                    </ul> */}
+                    <select
+                      id="location"
+                      name="location"
+                      className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
+                      onChange={handleChange}
+                    >
+                      <option key={lang}>
+                        {lang}
+                      </option>
+                      {altLangs.map((altLang) => {
+                        return(
+                          <option key={altLang.id}>
+                            {altLang.lang}
+                          </option>
+                        )}
+                      )}
+                    </select>
+                    {/* <span className="ml-3 block text-sm font-medium">CAD</span>
+                    <span className="sr-only">, change currency</span> */}
                   </a>
                 </div>
 

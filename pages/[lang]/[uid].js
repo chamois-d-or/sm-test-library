@@ -6,13 +6,15 @@ import resolver from "../../sm-resolver.js";
 import Layout from "../../components/Layout";
 import useUpdatePreviewRef from '../../tools/useUpdatePreviewRef' //import from where you store this file
 
-import Custom404 from "../404";
 import { useEffect } from 'react'
+import Custom404 from "../404";
+
+import { getInitialLocale } from '../../tools/getInitialLocale'
 
 import { useRouter } from 'next/router'
-import Loader from './../../components/Loader/Loader.js'
+import Loader from '../../components/Loader/Loader.js'
 
-const ProductPage = (props) => {
+const Page = (props) => {
   const router = useRouter()
   if (router.isFallback) {
     return <Loader />
@@ -20,37 +22,56 @@ const ProductPage = (props) => {
   if(!props.id){
     return <Custom404 />
   }
-  useUpdateToolbarDocs(productPageToolbarDocs(props.uid, props.previewData.ref), [props])
   useUpdatePreviewRef(props.previewData.ref, props.id)
+  useUpdateToolbarDocs(pageToolbarDocs(props.uid, props.previewData.ref, props.lang), [props])
+  React.useEffect(() => {
+    if(router.query.lang!=getInitialLocale()){
+      console.log(router.query.lang)
+      console.log(getInitialLocale())
+      router.replace('/[lang]', `/${getInitialLocale()}`)
+    }
+  })
   return (
-    <Layout menu={props.menu} footer={props.footer} categories={props.categories}>
+    <Layout menu={props.menu} footer={props.footer} categories={props.categories} lang={props.lang} altLangs={props.alternate_languages}>
       <SliceZone {...props} resolver={resolver} />
     </Layout>
   );
 };
 
-// Fetch content from prismic
-export const getStaticProps = useGetStaticProps({
-  client: Client(),
-  queryType: 'repeat',
-  type: 'product-page',
-  apiParams({ params }) {
+export async function getStaticProps(context) {
+  const regex = new RegExp('^[a-z]{2}-[a-z]{2}$');
+  if (!regex.test(context.params.lang)) {
     return {
-      uid: params.uid
+      notFound: true,
     }
   }
-});
+  const document = await Client().getByUID('page', context.params.uid, {lang: context.params.lang})
+    if (!document) {
+      return {
+        notFound: true,
+      }
+    }
+    return {
+      props:{
+        ...document,
+        previewData: context.previewData || {},
+        preview: context.preview || {},
+        slices: document.data.slices
+      }, // will be passed to the page component as props
+    }
+}
 
 export const getStaticPaths = useGetStaticPaths({
   client: Client(),
-  type: 'product-page',
+  type: 'page',
   getStaticPathsParams: {
     fallback: true
   },
   formatPath: (prismicDocument) => {
     return {
       params: {
-        uid: prismicDocument.uid
+        uid: prismicDocument.uid,
+        lang: prismicDocument.lang
       }
     }
   }
@@ -62,8 +83,8 @@ const useUpdateToolbarDocs = (docQuery, deps) => {
   }, deps)
 }
 
-const productPageToolbarDocs = (uid, ref = null) => (async () => {
-  const pageDocsPromise = getProductPageDocs(uid, ref)
+const pageToolbarDocs = (uid, ref = null, lang = null) => (async () => {
+  const pageDocsPromise = getPageDocs(uid, ref, lang)
   //const layoutPromise = getLayout(ref, { fetch: 'layout.prismic_display_name' })
   //const prismicDocs = await Promise.all([pageDocsPromise, layoutPromise])
   const prismicDocs = await Promise.all([pageDocsPromise])
@@ -85,8 +106,8 @@ const asyncHandler = (cb) => (
   }
 )
 
-const getProductPageDocs = asyncHandler(async (uid, ref = null) => {
-  const page = await getDocumentByUID('product-page', uid, { ref , fetch: 'page.slices' }) || null //, fetch: 'page.uid' 
+const getPageDocs = asyncHandler(async (uid, ref = null, lang = null) => {
+  const page = await getDocumentByUID('page', uid, { ref , fetch: 'page.slices', lang }) || null //, fetch: 'page.uid' 
 
   return { page }
 })
@@ -95,4 +116,4 @@ const getDocumentByUID = asyncHandler(async (type, uid, options = {}) => (
   Client().getByUID(type, uid, options)
 ))
 
-export default ProductPage;
+export default Page;
