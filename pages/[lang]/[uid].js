@@ -26,9 +26,7 @@ const Page = (props) => {
   useUpdateToolbarDocs(pageToolbarDocs(props.uid, props.previewData.ref, props.lang), [props])
   React.useEffect(() => {
     if(router.query.lang!=getInitialLocale()){
-      console.log(router.query.lang)
-      console.log(getInitialLocale())
-      router.replace('/[lang]', `/${getInitialLocale()}`)
+      router.replace('/[lang]/[uid]', `/${getInitialLocale()}/${router.query.uid}`)
     }
   })
   return (

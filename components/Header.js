@@ -18,8 +18,9 @@ export default function Header({ menu = [], categories = [], lang = null, altLan
   const router = useRouter()
   function handleChange(e) {
     const locale = altLangs.find(altLang => altLang.lang ===  e.target.value )
-    console.log(locale)
-    console.log(linkResolver(locale))
+    if (e.target.value !== localStorage.getItem('locale')) {
+      localStorage.setItem('locale', e.target.value)
+    }
     router.push(linkResolver(locale),linkResolver(locale),{locale: locale.lang})
   }
   return (
@@ -328,6 +329,7 @@ export default function Header({ menu = [], categories = [], lang = null, altLan
                       name="location"
                       className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
                       onChange={handleChange}
+                      value={lang}
                     >
                       <option key={lang}>
                         {lang}

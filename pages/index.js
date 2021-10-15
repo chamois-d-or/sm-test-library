@@ -33,7 +33,6 @@ const Page = (props) => {
 // });
 
 export async function getStaticProps(context) {
-  console.log(context)
   const document = await Client().getSingle('home-page')
   if (!document) {
     return {

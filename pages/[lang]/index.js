@@ -25,10 +25,7 @@ const Page = (props) => {
   useUpdatePreviewRef(props.previewData.ref, props.id)
   useUpdateToolbarDocs(homepageToolbarDocs(props.uid, props.previewData.ref, props.lang), [props])
   React.useEffect(() => {
-    // if(router.asPath!="/"+getInitialLocale()){
     if(router.query.lang!=getInitialLocale()){
-      console.log(router.query.lang)
-      console.log(getInitialLocale())
       router.replace('/[lang]', `/${getInitialLocale()}`)
     }
   })
