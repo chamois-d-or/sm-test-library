@@ -55,5 +55,7 @@
   "slices/marketing": {
     "HeroSectionSplit": {}
   },
-  "slices/ecommerce": {}
+  "slices/ecommerce": {
+    "PromoSectionImageTiles": {}
+  }
 }
