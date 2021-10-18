@@ -44,7 +44,6 @@ const ProductPage = (props) => {
 
 export async function getStaticProps(context) {
   const document = await Client().getByUID('product-page', context.params.uid, {lang: context.params.lang})
-  console.log(document)
     if (!document) {
       return {
         notFound: true,
