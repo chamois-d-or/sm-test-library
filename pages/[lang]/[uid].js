@@ -24,11 +24,13 @@ const Page = (props) => {
   }
   useUpdatePreviewRef(props.previewData.ref, props.id)
   useUpdateToolbarDocs(pageToolbarDocs(props.uid, props.previewData.ref, props.lang), [props])
-  React.useEffect(() => {
-    if(router.query.lang!=getInitialLocale()){
-      router.replace('/[lang]/[uid]', `/${getInitialLocale()}/${router.query.uid}`)
-    }
-  })
+  if(!router.isPreview){
+    React.useEffect(() => {
+      if(router.query.lang!=getInitialLocale()){
+        router.replace('/[lang]/[uid]', `/${getInitialLocale()}/${router.query.uid}`)
+      }
+    })
+  }
   return (
     <Layout menu={props.menu} footer={props.footer} categories={props.categories} lang={props.lang} altLangs={props.alternate_languages}>
       <SliceZone {...props} resolver={resolver} />

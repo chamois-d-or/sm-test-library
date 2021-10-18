@@ -1,4 +1,4 @@
-import { Client } from "../../prismic-configuration";
+import { Client, Router } from "../../prismic-configuration";
 import SliceZone from "next-slicezone";
 import { useGetStaticPaths } from "next-slicezone/hooks";
 
@@ -24,11 +24,13 @@ const Page = (props) => {
   }
   useUpdatePreviewRef(props.previewData.ref, props.id)
   useUpdateToolbarDocs(homepageToolbarDocs(props.uid, props.previewData.ref, props.lang), [props])
-  React.useEffect(() => {
-    if(router.query.lang!=getInitialLocale()){
-      router.replace('/[lang]', `/${getInitialLocale()}`)
-    }
-  })
+  if(!router.isPreview){
+    React.useEffect(() => {
+      if(router.query.lang!=getInitialLocale()){
+        router.replace('/[lang]', `/${getInitialLocale()}`)
+      }
+    })
+  }
   return (
     <Layout menu={props.menu} footer={props.footer} categories={props.categories} lang={props.lang} altLangs={props.alternate_languages}>
       <SliceZone {...props} resolver={resolver} />
