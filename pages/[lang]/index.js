@@ -50,7 +50,8 @@ export async function getStaticProps(context) {
       notFound: true,
     }
   }
-  const document = await Client().getSingle('home-page',  {lang: context.params.lang})
+  const previewRef = context.preview ? context.previewData.ref : null;
+  const document = await Client().getSingle('home-page',  {lang: context.params.lang, ref: previewRef})
   if (!document) {
     return {
       notFound: true,
