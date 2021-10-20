@@ -29,7 +29,13 @@
           "config": {
             "label": "",
             "constraint": {},
-            "thumbnails": []
+            "thumbnails": [
+              {
+                "name": "mobile",
+                "width": 500,
+                "height": 500
+              }
+            ]
           },
           "type": "Image"
         },

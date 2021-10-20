@@ -7,60 +7,25 @@
       {
         "productLink": {
           "link_type": "Web",
+          "url": "http://google.com"
+        }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
           "url": "http://twitter.com"
         }
       },
       {
         "productLink": {
           "link_type": "Web",
-          "url": "https://prismic.io"
+          "url": "https://slicemachine.dev"
         }
-      }
-    ],
-    "primary": {
-      "title": [
-        {
-          "type": "heading1",
-          "text": "Incubate innovative action-items",
-          "spans": []
-        }
-      ],
-      "description": [
-        {
-          "type": "paragraph",
-          "text": "Esse minim magna mollit anim non.",
-          "spans": []
-        }
-      ]
-    }
-  },
-  {
-    "variation": "customProducts",
-    "name": "Custom Products",
-    "slice_type": "product_list_with_cta",
-    "items": [
+      },
       {
         "productLink": {
           "link_type": "Web",
           "url": "https://prismic.io"
-        }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
-          "url": "http://google.com"
-        }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
-          "url": "http://google.com"
-        }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
-          "url": "http://google.com"
         }
       },
       {
@@ -74,14 +39,67 @@
       "title": [
         {
           "type": "heading1",
-          "text": "Maximize cross-platform users",
+          "text": "Reintermediate granular solutions",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Labore deserunt elit eiusmod sit proident esse ad deserunt labore occaecat.",
+          "text": "Consectetur amet laborum in sunt. Ullamco deserunt mollit reprehenderit sit sit cupidatat velit tempor enim esse ullamco anim ad do.",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "variation": "customProducts",
+    "name": "Custom Products",
+    "slice_type": "product_list_with_cta",
+    "items": [
+      {
+        "productLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      },
+      {
+        "productLink": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Disintermediate world-class content",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Et magna anim ad consectetur laboris aliquip officia adipisicing voluptate non velit adipisicing aliqua ipsum. Consectetur culpa exercitation reprehenderit.",
           "spans": []
         }
       ]

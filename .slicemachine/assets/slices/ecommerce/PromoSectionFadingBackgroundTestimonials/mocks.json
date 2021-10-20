@@ -5,31 +5,35 @@
     "slice_type": "promo_section_fading_background_testimonials",
     "items": [
       {
-        "quote": "visualize sexy applications",
-        "attribution": "cultivate collaborative applications"
+        "quote": "incentivize world-class platforms",
+        "attribution": "mesh vertical partnerships"
       },
       {
-        "quote": "reintermediate killer communities",
-        "attribution": "synthesize holistic users"
+        "quote": "grow enterprise architectures",
+        "attribution": "mesh world-class eyeballs"
+      },
+      {
+        "quote": "synergize integrated convergence",
+        "attribution": "enhance bricks-and-clicks solutions"
       }
     ],
     "primary": {
       "title": [
         {
           "type": "heading1",
-          "text": "Cultivate front-end experiences",
+          "text": "Expedite user-centric architectures",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Sunt non commodo exercitation mollit do ut commodo aute sit eu. Aliquip amet commodo Lorem deserunt consequat voluptate non nostrud culpa ullamco. Do do adipisicing culpa dolor mollit minim consequat et quis anim laborum aute.",
+          "text": "Magna ex culpa excepteur commodo commodo consequat aute laborum non ipsum aute minim aliqua. Deserunt aliqua eu ut Lorem amet consequat adipisicing ipsum Lorem et nisi. Mollit ad dolore aute nulla irure exercitation.",
           "spans": []
         }
       ],
-      "cta": "utilize extensible convergence",
-      "quotesTitle": "exploit scalable users",
+      "cta": "streamline visionary methodologies",
+      "quotesTitle": "streamline visionary eyeballs",
       "image": {
         "dimensions": {
           "width": 900,
@@ -37,7 +41,7 @@
         },
         "alt": "Placeholder image",
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=900&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=900&h=500&fit=crop"
       }
     }
   }
