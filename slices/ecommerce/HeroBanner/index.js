@@ -6,7 +6,10 @@ const HeroBanner = ({ slice }) => (
     <div className="relative bg-gray-800 py-32 px-6 sm:py-40 sm:px-12 lg:px-16">
       <div className="absolute inset-0 overflow-hidden">
         <picture>
-          <source srcset={slice.primary.image.mobile.url} media="(max-width: 640px)"/>
+        {slice.primary.image.mobile
+          ? <source srcset={slice.primary.image.mobile.url} media="(max-width: 640px)"/>
+          : <div/>
+        }
           <img
             src={slice.primary.image.url}
             alt={slice.primary.image.alt}
