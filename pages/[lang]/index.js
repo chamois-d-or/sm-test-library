@@ -24,13 +24,13 @@ const Page = (props) => {
   }
   useUpdatePreviewRef(props.previewData.ref, props.id)
   useUpdateToolbarDocs(homepageToolbarDocs(props.uid, props.previewData.ref, props.lang), [props])
-  if(!router.isPreview){
-    React.useEffect(() => {
-      if(router.query.lang!=getInitialLocale()){
-        router.replace('/[lang]', `/${getInitialLocale()}`)
-      }
-    })
-  }
+  // if(!router.isPreview){
+  //   React.useEffect(() => {
+  //     if(router.query.lang!=getInitialLocale(false)){
+  //       router.replace('/[lang]', `/${getInitialLocale(false)}`)
+  //     }
+  //   })
+  // }
   return (
     <Layout menu={props.menu} footer={props.footer} categories={props.categories} lang={props.lang} altLangs={props.alternate_languages}>
       <SliceZone {...props} resolver={resolver} />
