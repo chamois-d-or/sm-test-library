@@ -30,10 +30,6 @@ export default function useUpdatePreview(previewRef, documentId) {
       const previewCookieRef = previewCookieObject && previewCookieObject.preview
         ? previewCookieObject.preview
         : null
-
-      console.log("previewCookieRef : " + previewCookieRef)
-      console.log("previewRef : " + previewRef)
-      console.log("router : " + router.isPreview)
       if (router.isPreview) {
         if (rawPreviewCookie && previewCookieRef) {
           if (previewRef !== previewCookieRef) {

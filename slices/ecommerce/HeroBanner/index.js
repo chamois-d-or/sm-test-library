@@ -1,5 +1,5 @@
 import React from 'react'
-import { RichText } from 'prismic-reactjs'
+import { Link } from 'prismic-reactjs'
 
 const HeroBanner = ({ slice }) => (
   <section>
@@ -7,7 +7,7 @@ const HeroBanner = ({ slice }) => (
       <div className="absolute inset-0 overflow-hidden">
         <picture>
         {slice.primary.image.mobile
-          ? <source srcset={slice.primary.image.mobile.url} media="(max-width: 640px)"/>
+          ? <source srcSet={slice.primary.image.mobile.url} media="(max-width: 640px)"/>
           : <div/>
         }
           <img
@@ -23,12 +23,15 @@ const HeroBanner = ({ slice }) => (
         <p className="mt-3 text-xl text-white">
             { slice.primary.description }
         </p>
+        {
+        slice.variation === "default-slice" &&
         <a
-          href="#"
+          href={Link.url(slice.primary.CTALink)}
           className="mt-8 w-full block bg-white border border-transparent rounded-md py-3 px-8 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto"
         >
           { slice.primary.cta }
         </a>
+        }
       </div>
     </div>
   </section>

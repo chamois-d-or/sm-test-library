@@ -45,6 +45,52 @@
             "placeholder": ""
           },
           "type": "Text"
+        },
+        "CTALink": {
+          "config": {
+            "label": "CTALink",
+            "customtypes": [],
+            "select": "document"
+          },
+          "type": "Link"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "withoutCta",
+      "name": "Without CTA",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "HeroBanner",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "description": {
+          "config": {
+            "label": "",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "image": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": [
+              {
+                "name": "mobile",
+                "width": 500,
+                "height": 500
+              }
+            ]
+          },
+          "type": "Image"
         }
       },
       "items": {}
