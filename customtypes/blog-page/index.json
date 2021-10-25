@@ -44,9 +44,6 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "content_section_centered": {
-              "type": "SharedSlice"
-            },
             "content_section_centered_image": {
               "type": "SharedSlice"
             },
@@ -54,6 +51,9 @@
               "type": "SharedSlice"
             },
             "content_section_centered_embed": {
+              "type": "SharedSlice"
+            },
+            "content_section_centered": {
               "type": "SharedSlice"
             }
           }
