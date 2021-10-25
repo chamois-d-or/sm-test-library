@@ -49,6 +49,12 @@
             },
             "content_section_centered_image": {
               "type": "SharedSlice"
+            },
+            "separator": {
+              "type": "SharedSlice"
+            },
+            "content_section_centered_embed": {
+              "type": "SharedSlice"
             }
           }
         }
