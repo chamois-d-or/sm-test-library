@@ -7,7 +7,7 @@
   "main": "slices/index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "node ./tools/generateJsons.js next build",
+    "build": "node ./tools/generateJsons.js && next build",
     "start": "next start",
     "export": "next export",
     "prepublishOnly": "node ./node_modules/sm-commons/scripts/bundle",
