@@ -7,7 +7,7 @@
       {
         "productLink": {
           "link_type": "Web",
-          "url": "http://google.com"
+          "url": "https://prismic.io"
         }
       },
       {
@@ -15,38 +15,20 @@
           "link_type": "Web",
           "url": "http://twitter.com"
         }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
-          "url": "https://slicemachine.dev"
-        }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
-          "url": "https://prismic.io"
-        }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
-          "url": "https://slicemachine.dev"
-        }
       }
     ],
     "primary": {
       "title": [
         {
           "type": "heading1",
-          "text": "Reintermediate granular solutions",
+          "text": "Innovate e-business partnerships",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Consectetur amet laborum in sunt. Ullamco deserunt mollit reprehenderit sit sit cupidatat velit tempor enim esse ullamco anim ad do.",
+          "text": "Elit ut qui ut labore nisi duis ad.",
           "spans": []
         }
       ]
@@ -72,19 +54,13 @@
       {
         "productLink": {
           "link_type": "Web",
-          "url": "http://twitter.com"
+          "url": "https://prismic.io"
         }
       },
       {
         "productLink": {
           "link_type": "Web",
-          "url": "http://google.com"
-        }
-      },
-      {
-        "productLink": {
-          "link_type": "Web",
-          "url": "http://twitter.com"
+          "url": "https://slicemachine.dev"
         }
       }
     ],
@@ -92,14 +68,14 @@
       "title": [
         {
           "type": "heading1",
-          "text": "Disintermediate world-class content",
+          "text": "Grow 24/365 methodologies",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Et magna anim ad consectetur laboris aliquip officia adipisicing voluptate non velit adipisicing aliqua ipsum. Consectetur culpa exercitation reprehenderit.",
+          "text": "Lorem exercitation aute dolor dolore id magna consequat sint nostrud dolore tempor enim. Labore ad ut commodo irure aliqua proident cillum magna tempor aliqua irure id.",
           "spans": []
         }
       ]

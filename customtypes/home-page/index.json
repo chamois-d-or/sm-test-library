@@ -34,6 +34,31 @@
           }
         }
       }
+    },
+    "SEO": {
+      "metaTitle": {
+        "config": {
+          "label": "MetaTitle",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "metaDescription": {
+        "config": {
+          "label": "MetaDescription",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "canonicalLink": {
+        "config": {
+          "label": "CanonicalLink",
+          "placeholder": "",
+          "select": "web",
+          "allowTargetBlank": false
+        },
+        "type": "Link"
+      }
     }
   }
 }

@@ -89,8 +89,8 @@ const BlogSectionThreeColumnCards = ({ slice }) => (
                   {
                     slice.items[index] ?
                       <a href={Link.url(slice.items[index].article)} className="block mt-2">
-                        <p className="text-xl font-semibold text-gray-900">{post.title}</p>
-                        <p className="mt-3 text-base text-gray-500">{post.description}</p>
+                        <p className="text-xl font-semibold text-gray-900">{slice.items[index].title}</p>
+                        <p className="mt-3 text-base text-gray-500">{slice.items[index].description}</p>
                       </a>
                         :
                     <a href={post.href} className="block mt-2">

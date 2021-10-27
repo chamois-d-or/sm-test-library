@@ -5,8 +5,8 @@
     "slice_type": "hero_banner",
     "items": [],
     "primary": {
-      "title": "monetize out-of-the-box systems",
-      "description": "synthesize cross-media users",
+      "title": "seize wireless bandwidth",
+      "description": "extend magnetic solutions",
       "image": {
         "dimensions": {
           "width": 900,
@@ -14,7 +14,7 @@
         },
         "alt": "Placeholder image",
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop",
+        "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764?w=900&h=500&fit=crop",
         "mobile": {
           "dimensions": {
             "width": 500,
@@ -22,13 +22,13 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=500&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764?w=500&h=500&fit=crop"
         }
       },
-      "cta": "unleash B2C eyeballs",
+      "cta": "repurpose extensible paradigms",
       "CTALink": {
         "link_type": "Web",
-        "url": "http://google.com"
+        "url": "https://prismic.io"
       }
     }
   },
@@ -38,8 +38,8 @@
     "slice_type": "hero_banner",
     "items": [],
     "primary": {
-      "title": "iterate dot-com systems",
-      "description": "seize clicks-and-mortar platforms",
+      "title": "strategize intuitive schemas",
+      "description": "matrix sexy initiatives",
       "image": {
         "dimensions": {
           "width": 900,
@@ -47,7 +47,7 @@
         },
         "alt": "Placeholder image",
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=900&h=500&fit=crop",
+        "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=900&h=500&fit=crop",
         "mobile": {
           "dimensions": {
             "width": 500,
@@ -55,7 +55,7 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=500&h=500&fit=crop"
+          "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=500&h=500&fit=crop"
         }
       }
     }

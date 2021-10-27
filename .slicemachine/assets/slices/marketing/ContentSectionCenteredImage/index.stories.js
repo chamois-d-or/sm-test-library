@@ -5,5 +5,5 @@ export default {
 }
 
 
-export const _DefaultSlice = () => <MyComponent slice={{"variation":"default-slice","name":"Default slice","slice_type":"content_section_centered_image","items":[],"primary":{"description":[{"type":"paragraph","text":"Eiusmod nostrud aliqua elit exercitation nisi et veniam aliquip consequat elit ullamco quis velit adipisicing.","spans":[]}],"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?w=900&h=500&fit=crop"}},"id":"_DefaultSlice"}} />
+export const _DefaultSlice = () => <MyComponent slice={{"variation":"default-slice","name":"Default slice","slice_type":"content_section_centered_image","items":[],"primary":{"description":[{"type":"paragraph","text":"Eu fugiat minim exercitation non amet dolor consequat eiusmod cillum voluptate incididunt.","spans":[]}],"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=900&h=500&fit=crop"}},"id":"_DefaultSlice"}} />
 _DefaultSlice.storyName = 'Default slice'

@@ -1,6 +1,13 @@
 {
-  "id": "60bebccd-b19c-4b52-aeee-e685eb3b485f",
-  "uid": "sunt-delectus-officiis",
+  "id": "24bc082f-8570-47e5-b895-2b40fa0eab34",
+  "uid": "itaque-quia-pariatur",
   "type": "home-page",
-  "data": {}
+  "data": {
+    "metaTitle": "synergize 24/7 niches",
+    "metaDescription": "generate ubiquitous functionalities",
+    "canonicalLink": {
+      "link_type": "Web",
+      "url": "http://google.com"
+    }
+  }
 }

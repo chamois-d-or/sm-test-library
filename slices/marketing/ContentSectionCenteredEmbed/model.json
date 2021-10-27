@@ -14,7 +14,7 @@
         "EmbedItem": {
           "config": {
             "label": "EmbedItem",
-            "placeholder": ""
+            "placeholder": "Embed Item"
           },
           "type": "Embed"
         }

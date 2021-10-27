@@ -53,16 +53,29 @@
     "MyTestSlicezmijrnv": {}
   },
   "slices/marketing": {
-    "HeroSectionSplit": {}
-  },
-  "slices/ecommerce": {
-    "HeroBanner": {
-      "withoutCta": {
-        "primary": {}
-      },
+    "HeroSectionSplit": {},
+    "ContentSectionCentered": {
+      "default-slice": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 6
+            }
+          }
+        }
+      }
+    },
+    "ContentSectionCenteredEmbed": {
       "default-slice": {
         "primary": {}
       }
+    },
+    "BlogSectionThreeColumnCards": {
+      "default-slice": {
+        "items": {}
+      }
     }
-  }
+  },
+  "slices/ecommerce": {}
 }
