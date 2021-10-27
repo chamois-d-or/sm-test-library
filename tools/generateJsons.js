@@ -63,7 +63,7 @@ function modifyIntegrationFieldsPromoSectionImageTiles() {
   });
 }
 
-modifyIntegrationFieldsPromoSectionImageTiles()
+//modifyIntegrationFieldsPromoSectionImageTiles()
 modifyIntegrationFieldsProductOverviewWithImageGrid()
 modifyIntegrationFieldsProductListWithCTA()
 generateSMJson()
