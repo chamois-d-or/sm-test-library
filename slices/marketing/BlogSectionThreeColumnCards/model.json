@@ -37,6 +37,13 @@
           },
           "type": "Link"
         },
+        "category": {
+          "config": {
+            "label": "category",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
         "title": {
           "config": {
             "label": "Title",
@@ -50,6 +57,43 @@
             "placeholder": ""
           },
           "type": "Text"
+        },
+        "image": {
+          "config": {
+            "label": "image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "author": {
+          "config": {
+            "label": "author",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "authorImage": {
+          "config": {
+            "label": "authorImage",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "date": {
+          "config": {
+            "label": "date",
+            "placeholder": ""
+          },
+          "type": "Date"
+        },
+        "minutesToRead": {
+          "config": {
+            "label": "minutesToRead",
+            "placeholder": ""
+          },
+          "type": "Number"
         }
       }
     }
