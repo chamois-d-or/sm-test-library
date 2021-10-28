@@ -36,6 +36,7 @@ export default class extends Document {
             }}
           />
           <script async defer src={`//static.cdn.prismic.io/prismic.js?repo=${prismicRepoName}&new=true`} />
+          <script src="https://www.googleoptimize.com/optimize.js?id=OPT-NNLD62R"></script>
         </Head>
         <body>
           <Main />
